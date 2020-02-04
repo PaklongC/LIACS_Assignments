@@ -51,3 +51,4 @@ class gobord{
     int zwin = 0, wwin = 0, gelijkspel = 0; //tellers
     bool Comp1 = false, Comp2 = false; //check voor speler combinaties
 };
+ 
