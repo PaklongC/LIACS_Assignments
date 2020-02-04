@@ -12,3 +12,4 @@ class stapel{
         int* andere; //pointer naar andere waarde
         stapel* volgende; //pointer naar bovenste item
 };
+ 
