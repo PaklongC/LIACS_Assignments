@@ -1,4 +1,4 @@
-/*Assignment 4: Gomoku; Makers: Zahir Bingen (s2436647), Pak Long Cheung (s2712040);
+/*Assignment 4: Gomoku; Makers: Zahir Bingen (s2436647), Pak Long Cheung (s2712040); 
 Datum: 09/12/2019; Compiler: GCC 8.3.0;
 Careful! Compile with -std=c++11 or higher!
 This program simulates multiple MxN in a row games. User can make set their own parametes
