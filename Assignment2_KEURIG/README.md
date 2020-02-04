@@ -1,4 +1,4 @@
-<h1>Opgave 2 - KEURIG</h1>
+<h1>Opgave 2 - <i>KEURIG</i></h1>
 
 De tweede programmeeropgave van het vak Programmeermethoden in het najaar van 2019 heet <b>Keurig</b>.
 
