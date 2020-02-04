@@ -2,7 +2,7 @@
 
 Voor deze programmeeropgave gaan we het spel <b>Gomoku</b> programmeren, dat verdacht veel lijkt op het bekende Vier-op-een-rij. Het is de bedoeling een klasse gobord te maken, die onder meer memberfuncties heeft als drukaf, menszet en randomzet. Uiteraard heeft deze klasse ook een constructor en een destructor. Verder moeten gedane menselijke zetten met behulp van een stapel ongedaan gemaakt kunnen worden. 
 <p align="center">
-<img src="img/GOMOKU.jpg" width="" height="">
+<img src="img/GOMOKU.jpg" width="400" height="">
 </p>
 De mogelijkheid bestaat om gebruik te maken van een aantal voorbeeldfiles, van waaruit de opgave stap voor stap kan worden gedaan. Je kunt ook je eigen files met andere functies maken, maar gesplitst moet er worden; niet-gebruik van onderstaand viertal heeft geen invloed op het cijfer. De files zijn allereerst (zie verderop voor gebruik met Code::Blocks, op eigen risico):
 
