@@ -36,4 +36,4 @@ void stapel:: pop(stapel* &in){
 }
 
 
-
+ 
