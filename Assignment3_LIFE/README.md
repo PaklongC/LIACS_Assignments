@@ -2,9 +2,9 @@
 
 Het is de bedoeling om een C++-programma te maken dat de gebruiker in staat stelt <b>Life</b> te spelen via een menu-systeem. Dat betekent dat de gebruiker van het programma kan kiezen uit een aantal mogelijkheden, de zogeheten opties. Er is één submenu, waarin ook weer enkele opties zijn. De bedoeling is dat het hele menu op één regel staat, onder de wereld (zie verderop).
 De opties worden gekozen door de eerste letter van de betreffende optie in te toetsen (gevolgd door Enter), bijvoorbeeld een s of S om te stoppen. Uiteraard wordt een en ander duidelijk en ondubbelzinnig aan de gebruiker meegedeeld. Gebruik geen recursie!
-
+<p align="center">
 <img src="img/Gospers_glider_gun.gif" width="400" height="">
-
+</p>
 <h2>Spelregels</h2>
 Life is een cellulaire automaat, in 1970 bedacht door John Horton Conway. Zie verder het college of Wikipedia, en Johan Bontes' implementatie, met voorbeeldpatronen [en de nieuwste GitHub-versie]. In een 2-dimensionaal (zeg) 1000 bij 1000 rooster, de wereld, beginnen we met een eindig aantal levende vakjes oftewel cellen. Een levend vakje met minder dan 2 of meer dan 3 buren van de 8 (horizontaal, verticaal en diagonaal) gaat dood (uit eenzaamheid of juist overbevolking), met precies 2 of 3 levende buren overleeft het. In een dood vakje met precies 3 levende buren ontstaat leven. Dit leidt tot de volgende generatie. Let erop dat dit voor alle vakjes tegelijk gebeurt!
 Eigenlijk moet het geheel zich afspelen op een oneindig rooster, maar we kiezen voor de eindige variant. Om moeilijkheden te voorkomen, spreken we af dat de rand van onze wereld altijd uit dode cellen blijft bestaan.
