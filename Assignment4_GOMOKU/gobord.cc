@@ -1,4 +1,4 @@
-// file gobord.cc
+// file gobord.cc 
 #include <iostream>
 #include "gobord.h"
 #include <limits>
