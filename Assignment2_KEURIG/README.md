@@ -16,10 +16,10 @@ De bedoeling is dat iedere regel op diepte d even ver inspringt, en wel tab maal
 We nemen aan dat er geen accolades binnen strings (of als karakter '{') voorkomen. Accolades die binnen commentaar staan tellen niet mee voor de berekening van de diepte. De oude regelstructuur van het programma blijft behouden; voor iedere regel geldt dat het eerste karakter ongelijk spatie en TAB ('\t') op positie tab maal d +1 moet komen. Dit karakter kan een regelovergang zijn; zo wordt een oorspronkelijk "lege" regel op diepte d nu een regel met tab maal d spaties, en een regelovergang.
 Wellicht ten overvloede, een regel met een stel spaties en TAB's, en dan verder alleen //-commentaar, komt als tab maal d spaties in de uitvoerfile.
 We nemen aan dat de accolades netjes gepaard zijn.
-En op welke positie staat een accolade, als dit het eerste symbool is dat op een regel wordt afgedrukt? We spreken af dat als dit een openings-accolade is hiervoor nog de "oude" diepte wordt gebruikt, en voor een sluit-accolade de "nieuwe". We krijgen dus (waarbij een punt (.) een spatie voorstelt; tab = 3, d = 2):
-......if ( x == y )
-......{
-.........z = 0;
+En op welke positie staat een accolade, als dit het eerste symbool is dat op een regel wordt afgedrukt? We spreken af dat als dit een openings-accolade is hiervoor nog de "oude" diepte wordt gebruikt, en voor een sluit-accolade de "nieuwe". We krijgen dus (waarbij een punt (.) een spatie voorstelt; tab = 3, d = 2):<br>
+......if ( x == y )<br>
+......{<br>
+.........z = 0;<br>
 ......}</li>
 <li>Lychrel-getallen moeten worden opgespoord.<br>
 Voor elk geheel getal > 0 uit de invoerfile wordt gekeken of het een Lychrel-getal is. Op het scherm wordt afgedrukt wat het aantal iteraties is om tot een palindroom te komen (voor 545 is dit 0, voor 113 is dit 1), of het nummer van de iteratie waarvan het resultaat boven INT_MAX (gebruik include <climits>) uitkomt (voor 196 is dit (waarschijnlijk) 18). Als dit laatste gebeurt, wordt dit erbij vermeld.
