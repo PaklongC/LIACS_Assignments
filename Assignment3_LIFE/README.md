@@ -38,5 +38,4 @@ Kies zelf redelijke grenswaarden voor deze parameters. En denk natuurlijk aan de
 
 De bedoeling is een klasse (class) life te maken, met daarin onder meer functies die ieder voor zich een menuoptie afhandelen. De parameters zijn typisch membervariabelen. Gebruik nog geen eigen headerfiles, alles moet deze keer in één file staan.
 
-Opmerkingen
-Gebruik geschikte (member)functies. Bij deze opgave mogen bij elke functie (zelfs main) tussen begin-{ en eind-} hooguit circa 30 niet al te volle regels staan! Elke functie dient van commentaar voorzien te zijn, bij voorkeur één regel boven de functie. Let op goed parametergebruik: alle parameters, met uitzondering van membervariabelen, in de heading doorgeven, en de variabele-declaraties zowel bij main als bij de andere functies aan het begin. De enige te gebruiken headerfiles zijn in principe iostream, fstream, cstdlib en string. Zeer ruwe indicatie voor de lengte van het C++-programma: 500 regels. Denk aan het infoblokje.
+
