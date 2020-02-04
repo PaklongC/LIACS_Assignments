@@ -173,4 +173,4 @@ int main(){
     cod_decod(tabL(),file_nm());
     return 0;
 }
-
+ 
